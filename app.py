@@ -1,11 +1,13 @@
 from flask import Flask
 from flask import request
+from flask_cors import CORS
 
 import pickle
 import pandas
 import numpy
 
 app = Flask(__name__)
+CORS(app)
 
 # load our prediction model
 def load_model():
