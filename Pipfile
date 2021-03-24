@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 flask = "*"
+sklearn = "*"
+pandas = "*"
+numpy = "*"
 
 [dev-packages]
 black = "*"
