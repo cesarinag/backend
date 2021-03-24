@@ -8,7 +8,7 @@ Clone this repo and change into its directory. Then, assuming you are using `pip
 
 ```
 pipenv shell
-pip install
+pipenv install
 export FLASK_ENV=development
 flask run
 ```
