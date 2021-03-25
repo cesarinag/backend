@@ -22,17 +22,11 @@ def load_df():
 # enable specific features for our data frame
 def build_frame(params):
     df = load_df()
-    df["nonprofit"] = params["nonprofit"]
-    df["jobsreported"] = params["jobsreported"]
 
-    zip = params["zip"]
-    df[f"zip_{zip}"] = 1
+    df["jobsreported"] = params["jobsreported"]
 
     naics = params["naics"]
     df[f"naicscode_{naics}"] = 1
-
-    lender = params["lender"]
-    df[f"lender_{lender}"] = 1
 
     return df
 
