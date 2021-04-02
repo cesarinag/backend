@@ -9,6 +9,7 @@ sklearn = "*"
 pandas = "*"
 numpy = "*"
 flask-cors = "*"
+gunicorn = "*"
 
 [dev-packages]
 black = "*"
